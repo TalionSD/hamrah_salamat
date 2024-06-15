@@ -1,0 +1,68 @@
+name: hamrah_salamat
+description: "Health management application"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  animation_list: ^3.0.0
+  another_flushbar: ^1.12.30
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^17.1.2
+  flutter_localizations:
+    sdk: flutter
+
+    
+  flutter_launcher_icons: ^0.13.1
+  flutter_svg: ^2.0.10+1
+  lottie: ^3.1.0
+  path: ^1.8.3
+  persian_datetime_picker: ^2.6.0
+  provider: ^6.1.2
+  sqflite: ^2.3.2
+  syncfusion_flutter_gauges: ^25.1.41
+  timezone: ^0.9.3
+  url_launcher_windows: ^3.1.1
+  vertical_weight_slider: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_icons:
+  android: true
+  image_path: "assets/images/icon/icon_launcher.png"
+  adaptive_icon_background: "#f2f7f2"
+  adaptive_icon_foreground: "assets/images/icon/icon_launcher_forground.png"
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/common/
+    - assets/images/intro/
+    - assets/images/reactions/
+    - assets/images/genders/
+    - assets/images/avatars/
+    - assets/images/features/
+    - assets/images/articles/
+    - assets/images/diet_planning/
+    - assets/images/targeting/
+    - assets/images/about_us/
+    - assets/images/icon/
+    - assets/images/svg/
+    - assets/lottie/
+    - assets/lottie/yoga_exercises/ 
+    - assets/lottie/sport_exercises/ 
+    
+  fonts:
+    - family: Vazir
+      fonts:
+        - asset: assets/fonts/Vazir.ttf
+    
